@@ -1,0 +1,25 @@
+div{
+    height: 700px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+
+.blue {
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    font-size: 44px;
+    max-width: 720px;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
