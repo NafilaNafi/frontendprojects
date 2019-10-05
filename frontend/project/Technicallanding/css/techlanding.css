@@ -1,0 +1,12 @@
+html{
+    height: 100%;
+}
+.navbar-light .navbar-brand {
+    color: black;
+}
+a{
+    padding: 1em;
+}
+body{
+    background: url("images/../../images/techno.jpg")
+}
