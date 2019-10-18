@@ -8,7 +8,7 @@ a{
     padding: 1em;
 }
 body{
-    background: url("/frontend/project/Technicallanding/images/techno1.jpg");
+    background: url("../images/techno2.jpg");
     background-size: cover;
     background-position: center;
     font-family: 'Catamaran';
