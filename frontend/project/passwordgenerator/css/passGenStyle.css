@@ -1,0 +1,51 @@
+body{
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(73,155,234,1)), color-stop(7%, rgba(73,155,234,1)), color-stop(13%, rgba(73,155,234,1)), color-stop(22%, rgba(59,138,212,1)), color-stop(31%, rgba(46,121,191,1)), color-stop(36%, rgba(38,111,179,1)), color-stop(76%, rgba(71,153,231,1)), color-stop(78%, rgba(73,155,234,1)), color-stop(88%, rgba(54,141,232,1)), color-stop(100%, rgba(32,124,229,1)));
+
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 7%, rgba(73,155,234,1) 13%, rgba(59,138,212,1) 22%, rgba(46,121,191,1) 31%, rgba(38,111,179,1) 36%, rgba(71,153,231,1) 76%, rgba(73,155,234,1) 78%, rgba(54,141,232,1) 88%, rgba(32,124,229,1) 100%);
+
+    background: -ms-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 7%, rgba(73,155,234,1) 13%, rgba(59,138,212,1) 22%, rgba(46,121,191,1) 31%, rgba(38,111,179,1) 36%, rgba(71,153,231,1) 76%, rgba(73,155,234,1) 78%, rgba(54,141,232,1) 88%, rgba(32,124,229,1) 100%);
+
+    background: -moz-radial-gradient(center, ellipse cover, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 7%, rgba(73,155,234,1) 13%, rgba(59,138,212,1) 22%, rgba(46,121,191,1) 31%, rgba(38,111,179,1) 36%, rgba(71,153,231,1) 76%, rgba(73,155,234,1) 78%, rgba(54,141,232,1) 88%, rgba(32,124,229,1) 100%);
+
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 3em;
+}
+
+.out{
+    margin-bottom:10px;
+    width: 100%;
+    text-align: center;
+    color: #f63;
+}
+
+.myBtn{
+    padding: 20px 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pass{
+    width: 400px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 0;
+    padding: 20px;
+    background-color: #f63;
+}
+
+.in{
+    margin: 0;
+    padding: 9px;
+    float: right;
+    text-align: center;
+    background-color: #fff;
+    color: #f63;
+}
