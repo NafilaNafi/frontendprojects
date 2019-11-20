@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <title>My online TODO List App</title>
+    <link rel="stylesheet" href="css/todostyle.css">
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <h1>My Working TODO</h1>
+        <input type="text" id="userinput" class="form-control" placeholder="What you need to do" onkeydown="return serchKeyPress(event);">
+        <button class="btn btn-success" id="add">ADD a TODO</button>
+        <button class="btn btn-danger" id="removeall">REMOVE ALL TODO</button>
+        <ul id="list">My Todo</ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
